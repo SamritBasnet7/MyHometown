@@ -11,13 +11,45 @@ DARK BLUE: #1D3557
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Orbitron', serif;
-  font-optical-sizing: auto;
+  font-family: 'Happy Monkey', serif;
   font-weight: 400;
   font-style: normal;
-background-image: linear-gradient(#F1FAEE,#A8DADC);
+  background-image: linear-gradient(#397367, #5fa8d3);
 }
 
 img {
   width: 100px;
+}
+.hero {
+  background-image: url('images/chitwan.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+#hero-heading {
+  color: #f1faee;
+  display: inline-block; /* Makes the background color fit to the text */
+  padding: 5px 15px; /* Adjust padding to make it a little wider than the text */
+  border-radius: 5px; /* Optional: adds rounded corners */
+  background-color: #1d3557;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+#hero-desc {
+  color: #f1faee;
+  max-width: 800px; /* Optional: limits width of text */
+  margin: 0 auto; /* Centers the text */
+  background-color: #457b9d;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 14px;
 }
