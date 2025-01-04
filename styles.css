@@ -51,19 +51,17 @@ img {
   padding: 4px 12px;
   border-radius: 14px;
 }
+#heading-activities {
+  font-size: 20px;
+  font-weight: 600;
+}
 
 .activities {
   background-color: #f1faee;
-  background-size: cover;
-  background-position: center;
   height: auto; /* Adjust the height to fit content */
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  text-align: center;
-  padding: 40px 20px; /* Space around the content */
-  margin-top: 0;
 }
 
 .activities img {
@@ -72,4 +70,53 @@ img {
   margin: 15px auto; /* Add margin to space out the images vertically */
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensure image covers the circle */
+}
+.activity-heading {
+  font-size: 16px;
+  font-weight: 700;
+}
+.activity-text {
+  font-size: 14px;
+}
+
+.guide {
+  background-color: #a8dadc;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 32px 8px;
+  border-radius: 8px;
+  border-bottom: 8px solid #1d3557;
+}
+
+.guide img {
+  width: 450px;
+  height: 350px;
+  border-radius: 10px; /* Slightly rounded corners */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.guide-content {
+  text-align: left; /* Align text to the left for a professional look */
+  max-width: 400px; /* Limit text width */
+}
+.guide h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1d3557; /* Dark blue for emphasis */
+  margin-bottom: 10px; /* Space below heading */
+  text-align: center;
+}
+.guide p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.guide h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d3557; /* Match heading color */
+  margin-top: 10px; /* Space above name */
 }
